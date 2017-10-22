@@ -1,0 +1,102 @@
+
+/*个人心得开始*/
+
+.grxd-wrap .grxd-content {
+	margin:0 auto;
+}
+
+.grxd-wrap .grxd-content h3 {
+	font-size: 16px;
+    font-weight: 400;
+
+}
+.grxd-wrap .grxd-box-wrap {
+	width: 100%;
+	margin: 0 auto;
+}
+.grxd-wrap .grxd-box-wrap .grxd-box-content {
+	width:995px;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+	text-align: center;
+}
+.grxd-wrap .grxd-box-content .grxd-list {
+	 height: 130px;
+	 position: relative;
+	 transition: all 1s;
+	 /*border: 1px solid red;*/
+	 text-align: center;
+}
+.grxd-wrap .grxd-box-content .grxd-list::before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 20px 22px;
+    border-color: transparent transparent transparent #fff;
+    position: absolute;
+    left: 130px;
+    top: 42px;
+}
+.grxd-wrap .grxd-box-content .grxd-list::after {
+	content: "";
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	position: absolute;
+	left: 140px;
+	top: 38px;
+	background: #ccccce;
+	border: 2px solid #fff;
+	transition: all .5s;
+}
+.grxd-wrap .grxd-box-content .grxd-box-left {
+	position: relative;
+	height: 120px;
+	top: 10px;
+	margin-left: 30px;
+}
+.grxd-wrap .grxd-box-content .grxd-bg {
+	width: 100px;
+	height: 130px;
+	background: url(../img/grxd/index.jpg)48px 0 repeat-y;
+	-moz-opacity: .9;
+	opacity: .9;
+}
+
+.grxd-wrap .grxd-box-content .grxd-box-left img {
+	border-radius: 50%;
+}
+.grxd-wrap .grxd-box-content  .grxd-box-right {
+	width: 750px;
+	height: 80px;
+	background-color: #f8f8f8;
+	border-radius:30px;
+	font-size: 15px;
+	margin: 10px 90px 0 0;
+
+}
+.grxd-wrap .grxd-box-content  .grxd-box-right p {
+	display: block;
+	position: absolute;
+	margin-top: 20px;
+	width: 550px;
+	line-height: 20px;
+	margin-left: 20px;
+	overflow: hidden;
+	word-break:break-all;
+	text-overflow: ellipsis;
+	text-align: left;
+
+}
+.grxd-wrap  span {
+	position: absolute;
+	width: 90px;
+    font-size: 16px;
+    bottom: 40PX;
+    left: 750px;
+    line-height: 25px;
+    border-radius: 10PX;
+    color: #8B4513;
+}
+/*个人心得结束*/

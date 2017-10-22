@@ -1,0 +1,264 @@
+/*关于WEB开始*/
+.gywb-wrap {
+	margin: 0 auto;
+
+}
+.gywb-wrap .gywb-content {
+/*	border:1px solid red;*/
+	margin: auto;
+	background-color: #Fbfbfb;
+	border-radius: 5px;
+}
+.gywb-wrap .gywb-left-box {
+	background: #Fbfbfb;
+	border-radius: 5px;
+/*	border:1px solid red;
+*/
+}
+.gywb-wrap .gywb-left-box h3 {
+	color: #545166;
+	font-size: 14px;
+	height: 40px;
+	line-height: 40px;
+	margin:0px 10px;
+	border-bottom: 2px solid red;
+}
+
+.gywb-wrap .gywb-left-box h3 a{
+	color: #8a2b12;
+}
+.gywb-wrap .gywb-nav {
+	height: 40px;
+	line-height: 40px;
+	color: #ac5a24;
+	border:1px dashed #999;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	overflow: hidden;
+}
+.gywb-wrap .gywb-nav ul {
+	width: 450px;
+	margin: 0 auto;
+}
+.gywb-wrap .gywb-nav ul li {
+	float: left;
+	width: 140px;
+	text-align: center;
+}
+.gywb-wrap .gywb-main-wrap {
+	overflow: hidden;
+	margin: 30px 0px;
+    border:1px dashed #999;
+    border-top:0px;
+    border-left:0px;
+	border-right:0px;
+}
+.gywb-wrap .gywb-main-wrap:hover img {
+	-moz-transform: scale(1.1);
+	 -webkit-transform: scale(1.1); 
+	 -o-transform: scale(1.1);
+	  -ms-transform: scale(1.1);
+}
+.gywb-wrap .gywb-main-wrap figure {
+  float: left;
+  width: 27%;
+  overflow: hidden;
+/*  border: 1px solid red;*/
+}
+.gywb-wrap .gywb-main-wrap figure img {
+	width: 100%;
+    margin: auto;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s
+}
+.gywb-wrap .gywb-main-wrap ul {
+	float: right;
+	width: 72%;
+	font-size: 12px;
+	line-height: 16px;
+	overflow: hidden;
+	/*border: 1px solid red;*/
+}
+.gywb-wrap .gywb-main-wrap h2{
+    font-size: 15px;
+    font-weight: bold;
+    transition: all .5s;
+    margin-bottom: 5px;
+}
+.gywb-wrap .gywb-left-box h2:hover {
+	background: #FFB6C1;
+	margin-left: 5px;
+	border-radius: 5px;
+}
+.gywb-wrap .gywb-main-wrap p {
+	text-indent: 2em;
+	text-align: left;
+}
+.gywb-wrap .gywb-main-wrap .author {
+	margin: 10px 0px 0px;
+	display: inline-block;
+}
+.gywb-wrap .gywb-main-wrap .author span {
+    margin: 0px 10px 0px 0px;
+}
+.gywb-wrap .gywb-main-wrap .lm {
+	background: url(../img/gywb/newsbg01.png) no-repeat left center;
+}
+.gywb-wrap .gywb-main-wrap .countum {
+	background: url(../img/gywb/newsbg04.png) no-repeat left center;
+}
+.gywb-wrap .gywb-main-wrap .pl {
+	background: url(../img/gywb/newsbg03.png) no-repeat left center;
+}
+/*关于WEB结束*/
+/*右侧内容开始*/
+.gywb-right-box  {
+/*	border: 1px solid red;*/
+	margin: 0 auto;
+	background-color: #fffeee;
+}
+.gywb-right-box .gywb-right-content {
+	overflow: visible;
+	display: block;
+
+}
+.gywb-right-box .gymb-search {
+	padding-top: 10px;
+	box-sizing: content-box;
+	overflow: hidden;
+	white-space: nowrap;
+	word-wrap: normal;
+	width: auto;
+	height: auto;
+	border-color: #a6a6a6
+}
+.gywb-right-box .gymb-search-input {
+	background-color: #ffffff;
+	display: inline-block;
+	vertical-align: top;
+	float: left;
+	top: 0px !important;
+	left: 0px !important;
+	width: 232px !important;
+	height: 24px !important;
+	font-size: 11px !important;
+	border: 2px solid !important;
+	border-color: rgb(172, 11, 11) !important;
+
+
+}
+.gywb-right-box .gymb-search-submit {
+	top: 0px !important;
+	left: 232px !important;
+	width: 64px !important;
+	height: 28px !important;
+	font-size: 11px !important;
+	background-color: rgb(172, 11, 11) !important;
+	border: 0 !important;
+	color: #fff !important;
+	font-size: 14px;
+	background-color: #f5f5f5;
+	display: inline-block;
+	cursor: pointer;
+	vertical-align: top;
+	text-align: center;
+}
+/*内容右侧结束*/
+/*标签云开始*/
+.tagCloud-wrap {
+
+	margin-top: 20px;
+}
+.tagCloud-wrap .tagCloud-content {
+     margin:0 auto;
+}
+.tagCloud-wrap .tagCloud-list {
+	width: 100%;
+    clear: both;
+    overflow: hidden;
+}
+.tagCloud-wrap .tagCloud-list ul {
+	margin:20px 0px;
+	display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.tagCloud-wrap .tagCloud-list ul li {
+	line-height: 24px;
+    height: 24px;
+    display: block;
+    background: #999;
+    float: left;
+    padding: 3px 11px;
+    margin: 10px 10px 0 0;
+    border-radius: 40% 20%;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.tagCloud-wrap .tagCloud-list ul li a { 
+	color: #FFF;
+}
+.tagCloud-wrap .tagCloud-list ul li:nth-child(8n-7) { 
+	background: #8A9B0F;
+}
+.tagCloud-wrap .tagCloud-list ul li:nth-child(8n-6) { 
+	background: #EB6841;
+}
+.tagCloud-wrap .tagCloud-list ul li:nth-child(8n-5) { 
+	background: #3FB8AF;
+}
+.tagCloud-wrap .tagCloud-list ul li:nth-child(8n-4) { 
+	background: #FE4365;
+}
+.tagCloud-wrap .tagCloud-list ul li:nth-child(8n-3) { 
+	background: #FC9D9A;
+}
+.tagCloud-wrap .tagCloud-list ul li:nth-child(8n-2) {
+	background: #EDC951;
+}
+.tagCloud-wrap .tagCloud-list ul li:nth-child(8n-1) { 
+	background: #C8C8A9;
+}
+.tagCloud-wrap .tagCloud-list ul li:nth-child(8n) {
+	background: #83AF9B;
+}
+.tagCloud-wrap .tagCloud-list ul li:first-child {
+	background: #036564;
+}
+.tagCloud-wrap .tagCloud-list ul li:last-child { 
+	background: #3299BB;
+}
+.tagCloud-wrap .tagCloud-list ul li:hover { 
+	border-radius: 0;
+	text-shadow: #000 1px 1px 1px;
+}
+/*标签云结束*/
+.link-wrap {
+   margin-top: 20px;
+   overflow: hidden;
+}
+.link-wrap .link-content {
+
+	margin: 0 auto;
+}
+.link-wrap .link-content span a {
+	color: #fff;
+}
+.link-wrap .link-content ul {
+	background: #f9f9f9;
+    padding: 10px;
+    overflow: hidden;
+    border: #e9e9e9 1px solid;
+}
+.link-wrap .link-content ul li {
+	float: left;
+	padding: 5px 8px;
+}
